@@ -387,12 +387,20 @@
                                     </svg>
                               </span>
                         </label>
-                        <label for="" class="modal-form-field">
+                        <label class="modal-form-field">
                               Komentarz
+                              <span class="modal-form-area-wrapper">
                               <textarea name="user-comment" cols="30" rows="10" placeholder="Wprowadź tekst" class="modal-form-message"></textarea>
+                              </span>
                         </label>
-                        <input id="user-policy" type="checkbox" name="user-policy" class="modal-form-policy" value="policy">
-                        <label for="user-policy" class="modal-form-policy-label">Oświadczam iż akceptuję <a href="#" class="policy-link">Regulamin</a> i <a href="#" class="policy-link">Politykę Prywatności.</a></label>
+                        <span class="modal-form-policy-wrapper">
+                              <input id="user-policy" type="checkbox" name="user-policy" class="modal-form-policy" value="policy">
+                              <svg class="modal-form-policy-check">
+                                    <use href="images\icons.svg#icon-check"></use>
+                              </svg>
+                              <label for="user-policy" class="modal-form-policy-label">Oświadczam iż akceptuję <a href="#" class="policy-link">Regulamin</a> i <a href="#" class="policy-link">Politykę Prywatności.</a></label>
+                        </span>
+                        <button class="modal-form-submit" type="submit">Wyślij</button>
                   </form>
             </div>
       </div>
