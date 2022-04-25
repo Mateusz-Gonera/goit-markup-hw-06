@@ -924,8 +924,12 @@ img {
 
 .policy-link {
   display: inline-block;
-  margin: 0 3px;
+  margin-left: 3px;
   color: var(--decorative-color);
+}
+
+.policy-link:not(:last-of-type) {
+  margin-right: 3px;
 }
 
 .modal-form-policy-check {
