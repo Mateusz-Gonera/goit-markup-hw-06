@@ -13,37 +13,40 @@
       <title>WebStudio</title>
 </head>
 <body>
-      <header class="main-header section">
+      <header class="page-header">
             <div class="container">
             <!--logo-->
-            <a class="logo-header" href="index.html"><span class="span-logo">Web</span>Studio</a>
+            <a class="logo page-header__logo" href="index.html"><span class="span-logo">Web</span>Studio</a>
             <!--menu-->            
-            <nav>
-                  <ul class="navigation-list list">
-                        <li class="navigation-item">
-                              <a class="navigation-item-link active" href="index.html">Agencja</a>
+            <nav class="navigation">
+                  <ul class="list navigation__list">
+                        <li class="navigation__item">
+                              <a class="navigation__link active" href="index.html">Agencja</a>
                         </li>
-                        <li class="navigation-item">
-                              <a class="navigation-item-link" href="portfolio.html">Portfolio</a>
+                        <li class="navigation__item">
+                              <a class="navigation__link" href="portfolio.html">Portfolio</a>
                         </li>
-                        <li class="navigation-item">
-                              <a class="navigation-item-link" href="#">Kontakt</a>
+                        <li class="navigation__item">
+                              <a class="navigation__link" href="#">Kontakt</a>
                         </li>
                   </ul>
             </nav>
-            
-            <a class="navigation-mail" href="mailto:info@devstudio.com"><svg class="mail-icon" width="16" height="12">
-                  <use href="images/icons.svg#icon-envelope"></use>
-            </svg>info@devstudio.com</a>
-            <a class="navigation-phone" href="tel:48111111111"><svg class="phone-icon" width="10" height="16">
-                  <use href="images/icons.svg#icon-smartphone"></use>
-            </svg>+48 111 111 111</a>
+            <ul class="list page-header__list">
+                  <li class="page_header__item"><a class="page-header__link" href="mailto:info@devstudio.com"><svg class="mail-icon" width="16" height="12">
+                        <use href="images/icons.svg#icon-envelope"></use>
+                  </svg>info@devstudio.com</a>
+                  </li>
+                  <li class="page_header__item"><a class="page-header__link" href="tel:48111111111"><svg class="phone-icon" width="10" height="16">
+                        <use href="images/icons.svg#icon-smartphone"></use>
+                  </svg>+48 111 111 111</a>
+                  </li>
+            </ul>
             </div>
       </header>
       <main class="main-content">
             <section class="solutions section">
                   <div class="container">
-                        <h1 class="head-one">EFEKTYWNE ROZWIĄZANIA</br> DLA WASZEGO BIZNESU</h1>
+                        <h1 class="head-one">EFEKTYWNE ROZWIĄZANIA DLA<br>WASZEGO BIZNESU</h1>
                         <button class="button-one" type="button" data-modal-open>Zamów usługę</button>
                   </div>
             </section>
@@ -57,7 +60,7 @@
                                     <use href="images/icons.svg#icon-antenna"></use>
                               </svg>
                               <h3 class="head-three">LOREM IPSUM</h3>
-                              <p class="advantages-item-paragraph">Lorem ipsum dolor sit amet, consectetur </br>adipiscing elit. Nam vel arcu sem. Sed </br>non sodales dui. Interdum et malesuada
+                              <p class="advantages-item-paragraph">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Nam vel arcu sem. Sed<br>non sodales dui. Interdum et malesuada
                               </p>
                         </li>
                   <!--Feature 2-->
@@ -66,7 +69,7 @@
                                     <use href="images/icons.svg#icon-clock"></use>
                               </svg>
                               <h3 class="head-three">LOREM IPSUM</h3>
-                              <p class="advantages-item-paragraph">Lorem ipsum dolor sit amet, consectetur </br>adipiscing elit. Nam vel arcu sem. Sed </br>non sodales dui. Interdum et malesuada
+                              <p class="advantages-item-paragraph">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Nam vel arcu sem. Sed<br>non sodales dui. Interdum et malesuada
                               </p>
                         </li>
                   <!--Feature 3-->
@@ -75,7 +78,7 @@
                                     <use href="images/icons.svg#icon-diagram"></use>
                               </svg>
                               <h3 class="head-three">LOREM IPSUM</h3>
-                              <p class="advantages-item-paragraph">Lorem ipsum dolor sit amet, consectetur </br>adipiscing elit. Nam vel arcu sem. Sed </br>non sodales dui. Interdum et malesuada
+                              <p class="advantages-item-paragraph">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Nam vel arcu sem. Sed<br>non sodales dui. Interdum et malesuada
                               </p>
                         </li>
                   <!--Feature 4-->
@@ -84,7 +87,7 @@
                                     <use href="images/icons.svg#icon-astronaut"></use>
                               </svg>
                               <h3 class="head-three">LOREM IPSUM</h3>
-                        <p class="advantages-item-paragraph">Lorem ipsum dolor sit amet, consectetur </br>adipiscing elit. Nam vel arcu sem. Sed </br>non sodales dui. Interdum et malesuada
+                        <p class="advantages-item-paragraph">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Nam vel arcu sem. Sed<br>non sodales dui. Interdum et malesuada
                         </p>
                         </li>
                   </ul>
@@ -132,7 +135,7 @@
                               <figure class="team-list-item-figure">
                                     <img 
                                     src="images/img1.jpg" alt="zdjecie product designer" width="270" height="260"/>
-                                    <figcaption class="team-caption">John Doe</br><span class="team-span-caption">Product Designer</span>
+                                    <figcaption class="team-caption">John Doe<br><span class="team-span-caption">Product Designer</span>
                                     <ul class="team-social-list list">
                                           <li class="social-list-item">
                                                 <a href="#" class="social-list-link">
@@ -166,7 +169,7 @@
                         <li class="team-list-item">
                               <figure class="team-list-item-figure">
                                     <img src="images/img2.jpg" alt="zdjecie frontend developer" width="270" height="260" />
-                                    <figcaption class="team-caption">John Doe</br><span class="team-span-caption">Frontend Developer</span>
+                                    <figcaption class="team-caption">John Doe<br><span class="team-span-caption">Frontend Developer</span>
                                     <ul class="team-social-list list">
                                           <li class="social-list-item">
                                                 <a href="#" class="social-list-link">
@@ -200,7 +203,7 @@
                         <li class="team-list-item">
                               <figure class="team-list-item-figure">
                               <img src="images/img3.jpg" alt="zdjecie marketing" width="270" height="260" />
-                              <figcaption class="team-caption">John Doe</br><span class="team-span-caption">Frontend Developer</span>
+                              <figcaption class="team-caption">John Doe<br><span class="team-span-caption">Frontend Developer</span>
                               <ul class="team-social-list list">
                                     <li class="social-list-item">
                                           <a href="#" class="social-list-link">
@@ -234,7 +237,7 @@
                         <li class="team-list-item">
                               <figure class="team-list-item-figure">
                               <img src="images/img4.jpg" alt="zdjecie UI Designer" width="270" height="260" />
-                              <figcaption class="team-caption">John Doe</br><span class="team-span-caption">Frontend Developer</span>
+                              <figcaption class="team-caption">John Doe<br><span class="team-span-caption">Frontend Developer</span>
                               <ul class="team-social-list list">
                                     <li class="social-list-item">
                                           <a href="#" class="social-list-link">
@@ -315,10 +318,10 @@
             <div class="container">
                   <div class="foot-logo-address">
                   <div class="logo-footer-element">
-                        <a class="logo-footer" href="index.html"><span class="span-logo">Web</span>Studio</a>
+                        <a class="logo page-footer__logo" href="index.html"><span class="span-logo">Web</span>Studio</a>
                   </div>
                   <!--Address-->
-                  <address class="address"><span class="address-span">m. Warszawa, Aleje Jerozolimskie 21</span></br><span class="address-span"><a class="address-mail" href="mailto:info@example.com">info@example.com</a></span></br><span class="address-span"><a class="address-phone" href="tel:48111111111">+48 111 111 111</a></span>
+                  <address class="address"><span class="address-span">m. Warszawa, Aleje Jerozolimskie 21</span><br><span class="address-span"><a class="address-mail" href="mailto:info@example.com">info@example.com</a></span><br><span class="address-span"><a class="address-phone" href="tel:48111111111">+48 111 111 111</a></span>
                   </address>
                   </div>
                   <div class="social-foot">
@@ -410,6 +413,6 @@
             </div>
       </div>
       
-      <script src="js\modal.js"></script>
+      <script src="js/modal.js"></script>
 </body>
 </html>
