@@ -451,9 +451,6 @@ img {
 .address-mail,
 .address-phone {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   transition-property: color;
@@ -491,12 +488,6 @@ img {
   margin-bottom: 20px;
 }
 
-.foot-social-list {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
 .foot-social-list-item:not(:last-child) {
   margin-right: 10px;
 }
@@ -524,7 +515,7 @@ img {
   padding-top: 72px;
 }
 
-.foot-logo-address {
+.page-footer__address-container {
   margin-right: 70px;
 }
 
